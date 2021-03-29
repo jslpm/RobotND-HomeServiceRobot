@@ -1,6 +1,6 @@
 # Final Project - Home Service Robot
 
-This repo contains the final project of the Robotics Software Engineer Nanodegree Program from Udacity. The program shows a home service robot which can perform SLAM (Simultaneous Localization and Mapping) using [gmapping](http://wiki.ros.org/gmapping). The mobile robot navigates autonomously from its initial position to pickup point and then to a drop off point.
+This repo contains the final project of the Robotics Software Engineer Nanodegree Program from Udacity. The program shows a home service robot which can perform SLAM (Simultaneous Localization and Mapping) using [gmapping](http://wiki.ros.org/gmapping). The mobile robot navigates autonomously from its initial position to the pickup point and then to a drop off point.
 
 ![gazebo_example](media/gazebo.gif)
 

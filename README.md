@@ -2,11 +2,12 @@
 
 This repo contains the final project of the Robotics Software Engineer Nanodegree Program from Udacity. The program shows a home service robot which can perform SLAM (Simultaneous Localization and Mapping) using [gmapping](http://wiki.ros.org/gmapping). The mobile robot navigates autonomously from its initial position to the pickup point and then to a drop off point.
 
+![rviz_example](media/rviz.gif)
+
+The image below shows the robot in gazebo simulator:
+
 ![gazebo_example](media/gazebo.gif)
 
-The image below shows the navigation process in rviz.
-
-![rviz_example](rviz.gif)
 
 ## Dependencies for Running
 * cmake >= 3.5.1

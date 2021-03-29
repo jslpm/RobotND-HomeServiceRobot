@@ -27,7 +27,7 @@ The image below shows the robot in gazebo simulator:
 2. Open top level directory: `cd RobotND-HomeServiceRobot/catkin_ws`
 3. Build the files: `catkin_make`
 4. Execute in terminal: `source devel/setup.bash`
-5. Run the simulation file located in the scripts folder: `./src/script/home_service.sh`
+5. Run the simulation file located in the scripts folder: `./src/script/home_service.sh` (this file must have execution permission)
 
 There are other options for testing:
 * `test_slam.sh`: Allows to generate the map through navigation of the robot with keyboard commands

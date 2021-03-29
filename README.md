@@ -1,4 +1,4 @@
-# Project 5 - Home Service Robot
+# Final Project - Home Service Robot
 
 This repo contains the final project of the Robotics Software Engineer Nanodegree Program from Udacity. The program shows a home service robot which can perform SLAM (Simultaneous Localization and Mapping) using [gmapping](http://wiki.ros.org/gmapping). The mobile robot navigates autonomously from its initial position to pickup point and then to a drop off point.
 
@@ -28,7 +28,7 @@ The image below shows the navigation process in rviz.
 4. Execute in terminal: `source devel/setup.bash`
 5. Run the simulation file located in the scripts folder: `./src/script/home_service.sh`
 
-There are other option for testing:
+There are other options for testing:
 * `test_slam.sh`: Allows generate the map through navigation of the robot with keyboard commands
 * `test_navigation`: Show only Adaptive Montecarlo Localization (ACML)
 * `test_navigation_to_goal`: The robot navigates in the map with a goal indicated in Rviz (2D Nav Goal tool)

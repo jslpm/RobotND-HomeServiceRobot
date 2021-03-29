@@ -30,7 +30,7 @@ The image below shows the robot in gazebo simulator:
 5. Run the simulation file located in the scripts folder: `./src/script/home_service.sh` (this file must have execution permission)
 
 There are other options for testing:
-* `test_slam.sh`: Allows to generate the map through navigation of the robot with keyboard commands
+* `test_slam.sh`: Allows to generate the map through navigation of the robot with keyboard commands (`RobotND-HomeServiceRobot/catkin_ws/src/teleop_twist_keyboard/teleop_twist_keyboard.py` must have execution permission)
 * `test_navigation`: Show only Adaptive Monte Carlo Localization (ACML)
 * `test_navigation_to_goal`: The robot navigates in the map with a goal indicated in Rviz (2D Nav Goal tool)
 * `test_markers:` Shows a cube object in the map

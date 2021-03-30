@@ -42,5 +42,5 @@ There are other options for testing:
 * **Mapping:** The [gmapping](http://wiki.ros.org/gmapping) package provides laser-based SLAM (Simultaneous Localization and Mapping), as a ROS node called slam_gmapping. Using slam_gmapping, you can create a 2-D occupancy grid map (like a building floorplan) from laser and pose data collected by a mobile robot.
 * **Navigation:** The [ROS navigation stack](http://wiki.ros.org/navigation/Tutorials/SendingSimpleGoals) creates a path for the robot based on Dijkstra's algorithm, a variant of the Uniform Cost Search algorithm, while avoiding obstacles on its path.
 * **Teleoperation:** [teleop_twist_keyboard](https://github.com/ros-teleop/teleop_twist_keyboard) is Generic Keyboard Teleop for ROS.
-* **Rviz configuration:** Launchers for (visualizing TurtleBot)[http://wiki.ros.org/turtlebot_rviz_launchers]
+* **Rviz configuration:** Launchers for [visualizing TurtleBot](http://wiki.ros.org/turtlebot_rviz_launchers)
 * **Markers in Rviz:** [Basic Shapes (C++)](http://wiki.ros.org/rviz/Tutorials/Markers%3A%20Basic%20Shapes) shows how to use `visualization_msgs/Marker` messages to send basic shapes (cube, sphere, cylinder, arrow) to rviz.

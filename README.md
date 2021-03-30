@@ -33,4 +33,6 @@ The image below shows the robot in gazebo simulator:
 
 There are other options for testing:
 * `test_slam.sh`: Allows to generate the map through navigation of the robot with keyboard commands (`RobotND-HomeServiceRobot/catkin_ws/src/teleop_twist_keyboard/teleop_twist_keyboard.py` must have execution permission)
-* `test_navigation`: The robot navigates in the map with a goal indicated in Rviz (2D Nav Goal tool).
+* `test_navigation.sh`: The robot navigates in the map with a goal indicated in Rviz (2D Nav Goal tool)
+* `test_navigation_to_goal.sh`: The robot navigates through the map to a pickup point and the to a drop off point
+* `test_markers.sh`: A cube objects appears in the pickup zone for 5 seconds, disappear for 5 seconds and then it appears again in the drop off zone

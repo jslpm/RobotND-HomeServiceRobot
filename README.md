@@ -34,13 +34,13 @@ The image below shows the robot in gazebo simulator:
 There are other options for testing:
 * `test_slam.sh`: Allows to generate the map through navigation of the robot with keyboard commands.`RobotND-HomeServiceRobot/catkin_ws/src/teleop_twist_keyboard/teleop_twist_keyboard.py` must have execution permission.
 * `test_navigation.sh`: The robot navigates in the map with a goal indicated in Rviz (2D Nav Goal tool).
-* `test_navigation_to_goal.sh`: The robot navigates through the map to a pickup point and the to a drop off point.
+* `test_navigation_to_goal.sh`: The robot navigates through the map to a pickup point and then to a drop off point.
 * `test_markers.sh`: A cube objects appears in the pickup zone for 5 seconds, disappear for 5 seconds and then it appears again in the drop off zone.
 
 ## Project Packages
-* Localization: [amcl](http://wiki.ros.org/amcl) is a probabilistic localization system for a robot moving in 2D. It implements the adaptive Monte Carlo localization approach, which uses a particle filter to track the pose of a robot against a known map.
-* Mapping: The [gmapping](http://wiki.ros.org/gmapping) package provides laser-based SLAM (Simultaneous Localization and Mapping), as a ROS node called slam_gmapping. Using slam_gmapping, you can create a 2-D occupancy grid map (like a building floorplan) from laser and pose data collected by a mobile robot.
-* Navigation: The [ROS navigation stack](http://wiki.ros.org/navigation/Tutorials/SendingSimpleGoals) creates a path for the robot based on Dijkstra's algorithm, a variant of the Uniform Cost Search algorithm, while avoiding obstacles on its path.
-* Teleoperation: [teleop_twist_keyboard](https://github.com/ros-teleop/teleop_twist_keyboard) is Generic Keyboard Teleop for ROS.
-* Rviz configuration: Launchers for (visualizing TurtleBot)[http://wiki.ros.org/turtlebot_rviz_launchers]
-* Markers in Rviz: [Basic Shapes (C++)](http://wiki.ros.org/rviz/Tutorials/Markers%3A%20Basic%20Shapes) shows how to use `visualization_msgs/Marker` messages to send basic shapes (cube, sphere, cylinder, arrow) to rviz.
+* **Localization:** [amcl](http://wiki.ros.org/amcl) is a probabilistic localization system for a robot moving in 2D. It implements the adaptive Monte Carlo localization approach, which uses a particle filter to track the pose of a robot against a known map.
+* **Mapping:** The [gmapping](http://wiki.ros.org/gmapping) package provides laser-based SLAM (Simultaneous Localization and Mapping), as a ROS node called slam_gmapping. Using slam_gmapping, you can create a 2-D occupancy grid map (like a building floorplan) from laser and pose data collected by a mobile robot.
+* **Navigation:** The [ROS navigation stack](http://wiki.ros.org/navigation/Tutorials/SendingSimpleGoals) creates a path for the robot based on Dijkstra's algorithm, a variant of the Uniform Cost Search algorithm, while avoiding obstacles on its path.
+* **Teleoperation:** [teleop_twist_keyboard](https://github.com/ros-teleop/teleop_twist_keyboard) is Generic Keyboard Teleop for ROS.
+* **Rviz configuration:** Launchers for (visualizing TurtleBot)[http://wiki.ros.org/turtlebot_rviz_launchers]
+* **Markers in Rviz:** [Basic Shapes (C++)](http://wiki.ros.org/rviz/Tutorials/Markers%3A%20Basic%20Shapes) shows how to use `visualization_msgs/Marker` messages to send basic shapes (cube, sphere, cylinder, arrow) to rviz.
